@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KabulRead</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/239cb4c77a.js" crossorigin="anonymous"></script> 
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    
+</head>
+<body id="main-page">
+    <style></style>
+     <header>
+        <a class="logo" href=""><img style="height: 50px;" src="nav-log.png" alt=""></a>
+        <nav class="navbar-menue">
+            <ul class="nav-links">
+                <li>
+                    <a href="">Home</a>
+                </li>
+                <li>
+                    <a href="#featured">Bestsellers</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <input class="nav-input" type="text" placeholder="&nbsp Search book name">
+                </li>
+            </ul>
+        </nav>
+        <div>
+            <a href="sign_up.html"><button class="button">sign up</button></a>
+            <button class="button" id="login-btn">Log in</button>
+         </div>
+     </header>
+
+     <section id="home">
+         <div class="home-page row">
+            <div class="home-info col-lg-6">
+                <h1>A book can change your life so have habit of reading and give a book as gift for your bestfriend.</h1>
+                <p>Kabulread is online book selling service in Afghanistan it is one the top brand in regin in addition Kabulread render the best service for thier customers. </p>
+                <p>Download kabulread app from playstore and appstore</p>
+                <button class="download-btn button"><i class="fa-brands fa-google-play  "></i>  Download</button>
+                <button class="download-btn button"><i class="fa-brands fa-apple  "></i>Download</button>
+            </div>
+            <div class="col-lg-6 home-image" >
+                <img class="home-image"  src="photo2.jpeg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <div class="login-form-container">
+        <div id="close-login-btn" class="fas fa-times"></div>
+        <form action="">
+            <h3>sing in</h3>
+            <span>Username</span>
+            <input type="email" name="" class="box" placeholder="enter your email" id="">
+            <span>Password</span>
+            <input type="password" name="" class="box" placeholder="enter your password" id="">
+            <div class="checkbox">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">remember me</label> 
+            </div>
+            <input type="submit" value="sign in" class="button sign-in">
+            <p>forget password ? <a href="#">Click here</a></p>
+            <p>dont have an account ? <a href="#">Create one</a></p>
+        </form>
+    </div>
+    <section class="featured" id="featured">
+
+        <h1 class="heading" >Featued Books</h1>
+
+        <div class="swiper featured-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="thinking clearly.jpeg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Thinking...</h3>
+                        <div class="price">320 Afg</span></div>
+                        <button class="button">Add to Cart <i class="fa-solid fa-cart-circle-plus"></i></button>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="All the light.jpeg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>All the light</h3>
+                        <div class="price">250 Afg</span></div>
+                        <button class="button">Add to Cart <i class="fa-solid fa-cart-circle-plus"></i></button>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="making.jpeg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Making of ...</h3>
+                        <div class="price">400 Afg</span></div>
+                        <button class="button">Add to Cart <i class="fa-solid fa-cart-circle-plus"></i></button>
+                    </div>
+                </div>
+            
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="factfulness.jpeg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>FACTFULNESS</h3>
+                        <div class="price">270 Afg</span></div>
+                        <button class="button">Add to Cart <i class="fa-solid fa-cart-circle-plus"></i></button>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="sixteenhour.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Sixteen Ho...</h3>
+                        <div class="price">300 Afg</div>
+                        <button class="button">Add to Cart <i class="fa-solid fa-cart-circle-plus"></i></button>
+                    </div>
+                </div>
+            
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="bezos.jpeg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>bezos letters</h3>
+                        <div class="price">250 Afg</div>
+                        <button class="button">Add to Cart<i class="fa-solid fa-cart-circle-plus"></i></button>
+                    </div>
+                </div>
+            
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="atomic.jpeg" alt="">
+                    </div>
+                    <div >
+                    <div class="content">
+                        <h3>Atomic Habit</h3>
+                        <div class="price">410 Afg</div>
+                        <button class="button">Add to Cart <i class="fa-solid fa-cart-circle-plus"></i></button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </section>
+    
+    <section id="about">
+        <div class="about">
+            <div style="margin-bottom: 40px;" class="abuot-ceo">
+                <img class="about-img" src="about-pic.jpeg" alt="">
+                <h3>CEO, Sher Shah Rahim</h3>
+                <p>With eight-plus years of experience in management and technology, I have substantial expertise in product management and product development. With an entrepreneurial mindset, I have led teams to build medium to large-size technology solutions in underdeveloped countries,
+                    all of which contribute significantly to the economic growth and the total job market.
+                    Among my accomplishments are the successful implementation of million-dollar products and companies like IAP (a consultancy firm),and many others.
+                </p>
+            </div>
+            <div class="about-team">
+                <img class="about-img" src="about-log.png" alt="">
+                <h3>KabulRead Team</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <p></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>All Right reserved by Kabulread</p>
+        <img class="footer-image" src="linked.png" alt="">
+        <img class="footer-image" src="facebook.webp" alt="">
+        <img class="footer-image" src="twitter.png" alt="">
+        <img class="footer-image" src="gmail.png" alt="">
+    </section>
+
+     
+    <!-- script -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
